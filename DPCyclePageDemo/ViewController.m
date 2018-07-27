@@ -25,6 +25,7 @@
 - (IBAction)normalBtn:(id)sender {
     DPController *vc = [[DPController alloc] init];
     vc.type = 0;
+    self.title = @"123";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
